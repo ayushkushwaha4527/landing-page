@@ -364,3 +364,97 @@ body {
   margin-top: 30px;
   color: #888;
 }
+
+/*focus areas*/
+.focus-section {
+  background: #0d0d0d;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.focus-title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.focus-title span {
+  color: #ff6a00;
+}
+
+.focus-subtext {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.focus-card {
+  background: linear-gradient(145deg, #1a1a1a, #121212);
+  border-radius: 18px;
+  padding: 30px 20px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(255, 106, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.focus-card:hover {
+  transform: translateY(-6px);
+}
+
+.icon {
+  font-size: 36px;
+  background-color: rgba(255, 106, 0, 0.1);
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.plus-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.plus-button:hover {
+  background-color: rgba(255, 106, 0, 0.5);
+}

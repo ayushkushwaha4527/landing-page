@@ -54,6 +54,12 @@ const About = () => {
               research in graph and dynamic algorithms.
             </p>
           </div>
+          <div className="card">
+            <h3 className="card-title">Dr. Tanima Hajra</h3>
+            <p className="card-text">
+              Dr. Tanima Hajra currently serves as Chief Operating Officer at C3iHub, IIT Kanpur. She worked at RAMA University and IISER Bhopal followed by IIT Kanpur in 2017 as Senior Project Scientist. She has received her MSc in Chemistry from Jadavpur University and PhD from IIT Kanpur..
+            </p>
+          </div>
         </div>
       </section>
 
